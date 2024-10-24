@@ -1,5 +1,7 @@
 package com.example.design.lldPatterns.strategyPattern;
 
+import java.util.Map;
+
 public class Operate {
     public static void main(String[] args) {
         MallardDuck mallardDuck = new MallardDuck();
@@ -12,5 +14,6 @@ public class Operate {
         modelDuck.swim();
         modelDuck.fly();
         modelDuck.quack();
+
     }
 }

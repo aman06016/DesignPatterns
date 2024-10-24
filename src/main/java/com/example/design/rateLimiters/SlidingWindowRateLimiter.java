@@ -1,4 +1,4 @@
-package com.example.ratelimiter;
+package com.example.design.rateLimiters;
 
 import org.springframework.stereotype.Service;
 
