@@ -16,4 +16,5 @@ abstract class CoffeeDecorator implements Coffee {
     public double getCost() {
         return decoratedCoffee.getCost();
     }
+
 }

@@ -1,6 +1,6 @@
-package com.example.design.lldPatterns.creational.factoryPattern.pizzaStore;
+package com.example.design.lldPatterns.creational.factoryPattern.example1.pizzaStore;
 
-import com.example.design.lldPatterns.creational.factoryPattern.pizza.Pizza;
+import com.example.design.lldPatterns.creational.factoryPattern.example1.pizza.Pizza;
 
 public abstract class PizzaStore {
 

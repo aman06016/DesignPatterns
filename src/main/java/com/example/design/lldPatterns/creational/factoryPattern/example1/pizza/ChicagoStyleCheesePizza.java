@@ -1,6 +1,8 @@
-package com.example.design.lldPatterns.creational.factoryPattern.pizza;
+package com.example.design.lldPatterns.creational.factoryPattern.example1.pizza;
 
-public class CheesePizza extends Pizza{
+
+
+public class ChicagoStyleCheesePizza extends Pizza{
     @Override
     public void bake() {
         System.out.println("im baking");

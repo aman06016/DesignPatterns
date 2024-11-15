@@ -1,4 +1,4 @@
-package com.example.design.lldPatterns.creational.factoryPattern.pizza;
+package com.example.design.lldPatterns.creational.factoryPattern.example1.pizza;
 
 import java.util.ArrayList;
 import java.util.List;

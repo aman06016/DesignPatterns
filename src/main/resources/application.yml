@@ -1,3 +1,18 @@
 spring:
   application:
     name: design
+
+app:
+  name: MyApp
+  server:
+    port: 8081
+  datasource:
+    url: jdbc:mysql://localhost:3306/mydb
+    username: dbuser
+    password: dbpassword
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info,metrics
