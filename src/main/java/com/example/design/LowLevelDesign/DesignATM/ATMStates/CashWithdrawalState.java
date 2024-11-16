@@ -1,10 +1,11 @@
 package com.example.design.LowLevelDesign.DesignATM.ATMStates;
-import LowLevelDesign.DesignATM.ATM;
-import LowLevelDesign.DesignATM.AmountWithdrawal.CashWithdrawProcessor;
-import LowLevelDesign.DesignATM.AmountWithdrawal.FiveHundredWithdrawProcessor;
-import LowLevelDesign.DesignATM.AmountWithdrawal.OneHundredWithdrawProcessor;
-import LowLevelDesign.DesignATM.AmountWithdrawal.TwoThousandWithdrawProcessor;
-import LowLevelDesign.DesignATM.Card;
+import com.example.design.LowLevelDesign.DesignATM.ATM;
+import com.example.design.LowLevelDesign.DesignATM.AmountWithdrawal.CashWithdrawProcessor;
+import com.example.design.LowLevelDesign.DesignATM.AmountWithdrawal.FiveHundredWithdrawProcessor;
+import com.example.design.LowLevelDesign.DesignATM.AmountWithdrawal.OneHundredWithdrawProcessor;
+import com.example.design.LowLevelDesign.DesignATM.AmountWithdrawal.TwoThousandWithdrawProcessor;
+import com.example.design.LowLevelDesign.DesignATM.Card;
+import com.example.design.LowLevelDesign.DesignATM.TransactionType;
 
 public class CashWithdrawalState extends ATMState {
 

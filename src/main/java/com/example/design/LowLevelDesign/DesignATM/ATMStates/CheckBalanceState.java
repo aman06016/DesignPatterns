@@ -1,7 +1,7 @@
 package com.example.design.LowLevelDesign.DesignATM.ATMStates;
-
-import LowLevelDesign.DesignATM.ATM;
-import LowLevelDesign.DesignATM.Card;
+import com.example.design.LowLevelDesign.DesignATM.ATM;
+import com.example.design.LowLevelDesign.DesignATM.Card;
+import com.example.design.LowLevelDesign.DesignATM.TransactionType;
 
 public class CheckBalanceState extends ATMState{
 

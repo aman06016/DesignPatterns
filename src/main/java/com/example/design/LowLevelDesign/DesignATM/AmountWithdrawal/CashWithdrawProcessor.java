@@ -1,6 +1,7 @@
 package com.example.design.LowLevelDesign.DesignATM.AmountWithdrawal;
 
-import LowLevelDesign.DesignATM.ATM;
+import com.example.design.LowLevelDesign.DesignATM.ATM;
+
 
 public abstract class CashWithdrawProcessor {
 

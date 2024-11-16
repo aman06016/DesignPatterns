@@ -1,7 +1,8 @@
 package com.example.design.LowLevelDesign.DesignATM;
 
-import LowLevelDesign.DesignATM.ATMStates.ATMState;
-import LowLevelDesign.DesignATM.ATMStates.IdleState;
+
+import com.example.design.LowLevelDesign.DesignATM.ATMStates.ATMState;
+import com.example.design.LowLevelDesign.DesignATM.ATMStates.IdleState;
 
 public class ATM {
 
