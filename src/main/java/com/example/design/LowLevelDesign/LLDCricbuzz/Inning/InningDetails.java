@@ -1,8 +1,10 @@
 package com.example.design.LowLevelDesign.LLDCricbuzz.Inning;
 
-import LowLevelDesign.LLDCricBuzz.Match.MatchType;
-import LowLevelDesign.LLDCricBuzz.Match.Team.Player.PlayerDetails;
-import LowLevelDesign.LLDCricBuzz.Match.Team.Team;
+
+
+import com.example.design.LowLevelDesign.LLDCricbuzz.MatchType;
+import com.example.design.LowLevelDesign.LLDCricbuzz.Team.Player.PlayerDetails;
+import com.example.design.LowLevelDesign.LLDCricbuzz.Team.Team;
 
 import java.util.ArrayList;
 import java.util.List;

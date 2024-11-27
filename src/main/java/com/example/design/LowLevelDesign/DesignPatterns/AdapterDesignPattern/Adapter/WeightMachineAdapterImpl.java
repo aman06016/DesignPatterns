@@ -1,6 +1,7 @@
 package com.example.design.LowLevelDesign.DesignPatterns.AdapterDesignPattern.Adapter;
 
-import LowLevelDesign.DesignPatterns.AdapterDesignPattern.Adaptee.WeightMachine;
+
+import com.example.design.LowLevelDesign.DesignPatterns.AdapterDesignPattern.Adaptee.WeightMachine;
 
 public class WeightMachineAdapterImpl implements WeightMachineAdapter{
 

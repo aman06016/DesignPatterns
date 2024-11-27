@@ -1,7 +1,7 @@
 package com.example.design.LowLevelDesign.DesignVendingMachine;
 
-import LowLevelDesign.DesignVendingMachine.VendingStates.State;
 
+import com.example.design.LowLevelDesign.DesignVendingMachine.VendingStates.State;
 
 public class Main {
 

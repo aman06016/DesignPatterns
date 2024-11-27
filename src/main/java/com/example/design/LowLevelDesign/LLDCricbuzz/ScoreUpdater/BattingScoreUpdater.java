@@ -1,7 +1,8 @@
 package com.example.design.LowLevelDesign.LLDCricbuzz.ScoreUpdater;
 
-import LowLevelDesign.LLDCricBuzz.Match.Inning.BallDetails;
-import LowLevelDesign.LLDCricBuzz.Match.Inning.RunType;
+
+import com.example.design.LowLevelDesign.LLDCricbuzz.Inning.BallDetails;
+import com.example.design.LowLevelDesign.LLDCricbuzz.Inning.RunType;
 
 public class BattingScoreUpdater implements ScoreUpdaterObserver {
     @Override

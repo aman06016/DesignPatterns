@@ -1,7 +1,9 @@
 package com.example.design.LowLevelDesign.LLDCricbuzz;
 
-import LowLevelDesign.LLDCricBuzz.Match.Inning.InningDetails;
-import LowLevelDesign.LLDCricBuzz.Match.Team.Team;
+
+
+import com.example.design.LowLevelDesign.LLDCricbuzz.Inning.InningDetails;
+import com.example.design.LowLevelDesign.LLDCricbuzz.Team.Team;
 
 import java.util.Date;
 

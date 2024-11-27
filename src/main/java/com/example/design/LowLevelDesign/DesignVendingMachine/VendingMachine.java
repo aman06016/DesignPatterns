@@ -1,7 +1,8 @@
 package com.example.design.LowLevelDesign.DesignVendingMachine;
 
-import LowLevelDesign.DesignVendingMachine.VendingStates.State;
-import LowLevelDesign.DesignVendingMachine.VendingStates.impl.IdleState;
+
+import com.example.design.LowLevelDesign.DesignVendingMachine.VendingStates.State;
+import com.example.design.LowLevelDesign.DesignVendingMachine.VendingStates.impl.IdleState;
 
 import java.util.ArrayList;
 import java.util.List;

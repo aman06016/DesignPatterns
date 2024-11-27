@@ -1,6 +1,7 @@
 package com.example.design.LowLevelDesign.LLDCricbuzz.Team.Player.Score;
 
-import LowLevelDesign.LLDCricBuzz.Match.Team.Wicket;
+
+import com.example.design.LowLevelDesign.LLDCricbuzz.Team.Wicket;
 
 public class BattingScoreCard {
     public int totalRuns;

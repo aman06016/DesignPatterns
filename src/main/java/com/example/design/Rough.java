@@ -1,30 +1,42 @@
 package com.example.design;
 
-import java.util.HashMap;
-import java.util.LinkedHashMap;
+class Solution {
+    static int ans = 0;
 
-public class Rough {
+    public static int getMoneyAmount(int n) {
+
+        if(n == 1){
+            return 0;
+        }
+        dfs(0,n);
+        return ans;
+    }
+
+    public static void dfs(int i , int j ){
+
+        if(i+1==j || i ==j){
+            return;
+        }
+
+        int s1 = (j * (j+1))/2;
+        int s2 = (i * (i+1))/2;
+        int ss = (int) Math.ceil((s2 - s1)/2);
+        int m = -1;
+        int summ = 0;
+        for(int k = i;k<=j ;k++){
+
+            summ += k;
+            if(summ >= ss){
+                m = k;
+                break;
+            }
+        }
+        ans += m;
+
+        dfs(m,j);
+    }
+
     public static void main(String[] args) {
-
-        HashMap<String,String> hash = new HashMap<>();
-        LinkedHashMap<String,String> link = new LinkedHashMap<>();
-
-        for(int i = 1; i< 20 ;i++){
-            hash.put("key"+i , "value"+i);
-            link.put("key"+i , "value"+i);
-        }
-
-
-        System.out.println("printing hash map");
-
-        for(String key : hash.keySet()){
-            System.out.println(key + " -> " + hash.get(key));
-        }
-        System.out.println("printing linked map");
-
-        for(String key : link.keySet()){
-            System.out.println(key + " -> " + link.get(key));
-        }
-
+        System.out.println(getMoneyAmount(10));
     }
 }
